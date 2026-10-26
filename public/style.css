@@ -1,0 +1,74 @@
+/* High-contrast, no-animation styles tuned for e-ink screens. */
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: #fff;
+  color: #000;
+  font-family: Georgia, "Bookerly", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 1.45;
+}
+.wrap { max-width: 720px; margin: 0 auto; padding: 16px 18px 40px; }
+a { color: #000; }
+.brand { font-size: 28px; margin: 0 0 12px; letter-spacing: 1px; border-bottom: 3px solid #000; padding-bottom: 6px; }
+.brand a { text-decoration: none; }
+h2 { font-size: 22px; margin: 22px 0 8px; }
+.lede { margin: 0 0 8px; }
+hr { border: 0; border-top: 2px solid #000; margin: 26px 0 6px; }
+
+label { display: block; font-weight: bold; margin: 12px 0 4px; }
+input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  font: inherit;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 0;
+  background: #fff;
+  color: #000;
+  -webkit-appearance: none;
+}
+button {
+  font: inherit;
+  font-weight: bold;
+  padding: 10px 18px;
+  margin-top: 14px;
+  border: 2px solid #000;
+  border-radius: 0;
+  background: #000;
+  color: #fff;
+  -webkit-appearance: none;
+}
+button.link {
+  background: none;
+  color: #000;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.notice { border: 2px solid #000; padding: 8px 10px; margin: 12px 0; }
+.notice.error { border-style: dashed; font-weight: bold; }
+
+.bar { display: table; width: 100%; margin-bottom: 8px; }
+.bar > span, .bar > form { display: table-cell; vertical-align: middle; }
+.bar > form { text-align: right; }
+
+.send { display: table; width: 100%; margin: 8px 0 4px; }
+.send input, .send button { display: table-cell; }
+.send input { width: 100%; }
+.send button { width: 1%; white-space: nowrap; margin: 0; border-left: 0; }
+
+.status { font-size: 16px; margin: 6px 0 10px; }
+.sr { position: absolute; left: -9999px; }
+
+.messages { list-style: none; margin: 0; padding: 0; border-top: 2px solid #000; }
+.msg { padding: 10px 0; border-bottom: 1px solid #000; }
+.who { font-weight: bold; }
+.when { font-size: 15px; }
+.text { word-wrap: break-word; overflow-wrap: break-word; }
+.empty { padding: 16px 0; font-style: italic; }
+.hint { font-size: 16px; margin: 4px 0 0; }
