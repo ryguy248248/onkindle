@@ -1,0 +1,31 @@
+{
+  "name": "repo",
+  "version": "1.0.0",
+  "description": "website fo kindle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://x-access-token:ghs_13473_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRobmQiLCJjdHgiOiJYb3cwdXFoRzZLclpfZWJ3X19xQUlIdHEzUkhkMUhaeVFTaFNNTmJSOXpvUExsbmhSTktMSXZBY0p3IiwiZXhwIjoxNzkzMDI2NjgyLCJpYXQiOjE3OTMwMjMwODIsImlzcyI6ImdpdGh1YiIsImp0aSI6IjIzYmJiYWQ1LTc0OGQtNDcyMS05NjI5LTZmNDIwMDU5NjhkYiIsInZlciI6M30.O-qB3cNAbBL8otYAWjbr2V6NO7O83XtBVr5lkNYR3-dPRGEoWbJP3EcROcC3YbAQIHzK9u3zpKZuiqRBdIx_3w@github.com/ryguy248248/onkindle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ryguy248248/onkindle/issues"
+  },
+  "homepage": "https://github.com/ryguy248248/onkindle#readme",
+  "dependencies": {
+    "@netlify/database": "^2.0.1",
+    "@netlify/functions": "^6.0.3",
+    "@netlify/identity": "^2.0.0",
+    "drizzle-orm": "^1.0.0-beta.22"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^1.0.0-beta.22",
+    "typescript": "^7.0.2"
+  }
+}
